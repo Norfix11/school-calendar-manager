@@ -8,7 +8,7 @@ def save_events(combined_events: list, output_file = "data/sample_deadlines.json
     for event in combined_events:
         serialized_events.append(dict(event, due_date = event["due_date"].isoformat()))
 
-    with open(output_file, "w") as file:
+    with open(output_file, "w", encoding="utf-8") as file:
         json.dump(serialized_events, file, ensure_ascii = False, indent=4)
 
     print(f"Created {output_file.rsplit('/', 1)[-1]}")
@@ -17,7 +17,7 @@ def save_events(combined_events: list, output_file = "data/sample_deadlines.json
 def load_events(input_file = "data/sample_deadlines.json"):
     combined_events = []
 
-    with open(input_file, "r") as file:
+    with open(input_file, "r", encoding="utf-8") as file:
         serialized_events = json.load(file)
 
     for event in serialized_events:
