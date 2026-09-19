@@ -51,11 +51,15 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (2, 2, 2, 
     for group in groups_by_unit.values():
         group.sort(key=lambda task: task["last_day"])
 
-    states = {(0) * len(sorted_units): (0, 0)}
-    active_range = max(group[-1]["last day"] for group in groups_by_unit)
+    states = {(0,) * len(sorted_units): (0, 0)}
+    active_range = max(group[-1]["last_day"] for group in groups_by_unit.values())
+    backtrack = {}
 
     for current_day in range(active_range + 1):
-        pass
+        next_states = {}
+
+        for state, score in states.items():
+            pass
     
 
 
