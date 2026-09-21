@@ -115,8 +115,9 @@ def greedy_benchmark_score(groups_by_unit: dict, sorted_units: list,
 
 
 
-def build_timeline(events: list, start_date: date, hours_by_weekday = (2, 2, 2, 2, 2, 2, 2)) -> dict:
+def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 2, 3, 1, 2)) -> dict:
     groups_by_unit = {}
+    event_count = 0
 
     for index, event in enumerate(events):
         last_day = (last_workday(event) - start_date).days
@@ -132,6 +133,7 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (2, 2, 2, 
             groups_by_unit[event_units] = []
 
         groups_by_unit[event_units].append({"event_index": index, "last_day": last_day})
+        event_count += 1
 
     if not groups_by_unit:
         return {}
@@ -152,69 +154,76 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (2, 2, 2, 
     best_seen = {}
     current_plan = []
 
-    def search(current_day: int, state: tuple, score: tuple) -> None:
+    def state_space_DFS(current_day: int, remaining_events: int, state: tuple, score: tuple) -> None:
         nonlocal best_score, best_plan
-        pass #recursive function TODO
 
-    
-    states = {(0,) * len(sorted_units): (0, 0)}
-    backtrack = {}
+        if (current_day, state) not in best_seen or score < best_seen[(current_day, state)]:
+            best_seen[(current_day, state)] = score
+        else:
+            return
+        
+        if remaining_events == 0:
+            if score < best_score:
+                best_score = score
+                best_plan = current_plan.copy()
+            return
 
-    for current_day in range(last_day_index + 1):
-        next_states = {}
-        unit_range = []
+        relaxed_penalty, relaxed_ew_cost = relaxed_remaining_score(current_day, state, groups_by_unit, sorted_units, allowance_by_day)
+        relaxed_score = (score[0] + relaxed_penalty, score[1] + relaxed_ew_cost)
 
-        for unit in sorted_units:
+        if relaxed_score >= best_score:
+            return
+
+
+        new_by_unit = []
+
+        for i, unit in enumerate(sorted_units):
             group = groups_by_unit[unit]
-            minimum = sum(event["last_day"] <= current_day for event in group)
-            maximum = len(group)
-            unit_range.append((minimum, maximum))
+            required = sum(event["last_day"] <= current_day for event in group)
 
-        for state, score in states.items():
-            relaxed_penalty, relaxed_ew_cost = relaxed_remaining_score(current_day, state, groups_by_unit, sorted_units, allowance_by_day)
-            relaxed_score = (score[0] + relaxed_penalty, score[1] + relaxed_ew_cost)
+            min_new = max(0, required - state[i])
+            max_new = len(group) - state[i]
+            new_by_unit.append(range(min_new, max_new + 1))
 
-            if relaxed_score > best_score:
-                continue
+        for allocation in product(*new_by_unit):
+            units_today = 0
+            events_today = 0
 
-            new_by_unit = []
+            for i, count in enumerate(allocation):
+                events_today += count
+                units_today += count * sorted_units[i]
 
-            for i in range(len(sorted_units)):
-                min_new = max(0, unit_range[i][0] - state[i])
-                max_new = unit_range[i][1] - state[i]
-                new_by_unit.append(range(min_new, max_new + 1))
+            total_penalty = score[0] + daily_overload_penalty(units_today/2, allowance_by_day[current_day])
+            total_ew_cost = score[1] + current_day*units_today
+            new_score = (total_penalty, total_ew_cost)
+            new_state = tuple(state[i] + allocation[i] for i in range(len(sorted_units)))
 
-            for allocation in product(*new_by_unit):
-                units_today = sum(allocation[i]*sorted_units[i] for i in range(len(sorted_units)))
+            current_plan.append(allocation)
+            state_space_DFS(current_day + 1, remaining_events - events_today, new_state, new_score)
+            current_plan.pop()
 
-                total_penalty = score[0] + daily_overload_penalty(units_today/2, allowance_by_day[current_day])
-                total_ew_cost = score[1] + current_day*units_today
-                new_score = (total_penalty, total_ew_cost)
-                new_state = tuple(state[i] + allocation[i] for i in range(len(sorted_units)))
 
-                if new_state not in next_states or new_score < next_states[new_state]:
-                    next_states[new_state] = new_score
-                    backtrack[(current_day, new_state)] = state
+    state_space_DFS(0, event_count, (0,) * len(sorted_units), (0, 0))
 
-        states = next_states
 
-    final_state = next(iter(states))
-    current_state = final_state
     timeline = {}
+    assigned = [0] * len(sorted_units)
 
-    for current_day in range(last_day_index, -1, -1):
-        previous_state = backtrack[(current_day, current_state)]
+    for current_day, allocation in enumerate(best_plan):
         events_today = []
 
         for i, unit in enumerate(sorted_units):
             group = groups_by_unit[unit]
+            start = assigned[i]
+            end = start + allocation[i]
 
-            for event in group[previous_state[i]:current_state[i]]:
+            for event in group[start:end]:
                 events_today.append(events[event["event_index"]])
+
+            assigned[i] = end
 
         planning_date = start_date + timedelta(days=current_day)
         timeline[planning_date] = events_today
-        current_state = previous_state
 
     return timeline
 
