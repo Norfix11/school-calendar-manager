@@ -2,6 +2,228 @@ from datetime import date, time, datetime, timedelta
 from itertools import product
 from heapq import heappush, heappop
 import math
+import numpy as np
+from scipy.stats import gamma
+from scipy.signal import fftconvolve
+from bisect import bisect_left
+
+
+
+def estimate_event_duration(est_hours: float, past_hours: list, initial_weight = 2.0,
+                           relative_deviation = 0.5, interval_probability = 0.9) -> dict:
+
+    total_weight = initial_weight + len(past_hours)
+    expected_hours = (initial_weight * est_hours + math.fsum(past_hours)) / total_weight
+
+    initial_variance = (relative_deviation * est_hours) ** 2
+    weighted_variance = initial_weight * (initial_variance + (est_hours - expected_hours) ** 2)
+    weighted_variance += math.fsum((hours - expected_hours) ** 2 for hours in past_hours)
+    variance = weighted_variance / total_weight
+
+    shape = expected_hours ** 2 / variance
+    scale = variance / expected_hours
+    distribution = gamma(a=shape, scale=scale)
+
+    tail_probability = (1 - interval_probability) / 2
+    lower = float(distribution.ppf(tail_probability))
+    upper = float(distribution.ppf(1 - tail_probability))
+
+    return {"expected_hours": expected_hours, "deviation_hours": math.sqrt(variance), "prediction_interval": (lower, upper),
+            "interval_probability": interval_probability, "shape": shape, "scale": scale, "distribution": distribution}
+
+
+def daily_overload_probability(distributions: list, allowance: float,
+                               step_hours = 0.1) -> float:
+    if not distributions:
+        return 0.0
+    if allowance == 0:
+        return 1.0
+
+    interval_count = math.ceil(allowance / step_hours)
+    grid_array = np.linspace(0, allowance, interval_count + 1)
+
+    total_probabilities = np.array([1.0])
+
+    for distribution in distributions:
+        cumulative_probabilities = distribution.cdf(grid_array)
+        event_probabilities = np.diff(cumulative_probabilities, prepend = 0.0)
+
+        total_probabilities = fftconvolve(total_probabilities, event_probabilities)
+
+        #cutting unnecessary information
+        total_probabilities = total_probabilities[:interval_count + 1]
+        total_probabilities = np.maximum(total_probabilities, 0.0)
+
+    overload_probability = 1 - float(total_probabilities.sum())
+    return max(0.0, min(1.0, overload_probability))
+
+
+def predict_events(
+    events: list,
+    forecast_start: date,
+    forecast_end: date,
+    history_start = None,
+    breaks = None,
+    date_tolerance = 1,
+    minimum_probability = 0.5,
+    minimum_fit = 0.6,
+    match_weight_function = lambda distance, tolerance: 1 - distance / (tolerance + 1)) -> list:
+    
+    if not isinstance(date_tolerance, int) or not 0 <= date_tolerance <= 2:
+        raise ValueError("date_tolerance must be an integer from zero to two")
+
+    if forecast_end < forecast_start:
+        return []
+
+
+    def is_during_break(date):
+        if not breaks:
+            return False
+        
+        return any(start <= date <= end for start, end in breaks)
+
+
+    clusters_by_subject = {}
+    for event in events:
+        deadline = event["due_date"]
+
+        if isinstance(deadline, datetime):
+            date = deadline.date()
+        else: 
+            date = deadline
+
+        if event["subject"] not in clusters_by_subject:
+            clusters_by_subject[event["subject"]] = {}
+        clusters = clusters_by_subject[event["subject"]]
+
+        if date not in clusters:
+            clusters[date] = 0
+        clusters[date] += 1
+
+    predictions = []
+    tolerance = timedelta(days=date_tolerance)
+
+    for subject, clusters in clusters_by_subject.items():
+
+        date_history = [date for date in clusters if date < forecast_start
+                    and (history_start is None or date >= history_start)
+                    and not is_during_break(date)]
+        if not date_history:
+            continue
+        date_history.sort()
+
+        if history_start:
+            earliest_candidate_date = history_start - tolerance
+        else:
+            earliest_candidate_date = date_history[0] - tolerance
+
+
+        best_schedule = None
+        best_score = None
+        
+        for period in (7, 14):
+
+            for phase in range(period):
+                matched_centers = 0
+                unmatched_centers = 0
+                matched_events = 0
+                matched_weight = 0
+                total_shift = 0
+
+                center = earliest_candidate_date + timedelta(days=phase)
+
+                while center - tolerance < forecast_start:
+
+                    if not is_during_break(center):
+                        pos = bisect_left(date_history, center)
+
+                        candidates = []
+                        if pos > 0:
+                            candidates.append(date_history[pos - 1])
+
+                        if pos < len(date_history):
+                            candidates.append(date_history[pos])
+
+                        closest_date = min(candidates, key=lambda date: abs((date - center).days))
+                        closest_distance = abs((closest_date - center).days)
+
+                        #windows cannot overlap
+                        if closest_distance <= date_tolerance:
+                            matched_centers += 1
+                            matched_events += clusters[closest_date]
+                            total_shift += closest_distance
+                            matched_weight += match_weight_function(closest_distance, date_tolerance)
+
+                        elif center - tolerance >= earliest_candidate_date + tolerance and center + tolerance < forecast_start:
+                            unmatched_centers += 1
+
+                    center += timedelta(days=period)
+
+                unmatched_dates = len(date_history) - matched_centers
+                evaluated_centers = matched_centers + unmatched_centers
+
+                if matched_centers < 2:
+                    continue
+
+                fit = matched_weight / (evaluated_centers + unmatched_dates)
+                score = (fit, matched_centers, -total_shift, -period)
+
+                if not best_score or score > best_score:
+                    best_score = score
+                    best_schedule = {
+                        "period_days": period,
+                        "phase_date": earliest_candidate_date + timedelta(days=phase),
+                        "fit": fit,
+                        "matched_centers": matched_centers,
+                        "evaluated_centers": evaluated_centers,
+                        "unmatched_dates": unmatched_dates,
+                        "matched_events": matched_events,
+                    }
+
+        if not best_schedule or best_schedule["fit"] < minimum_fit:
+            continue
+
+        matched_centers = best_schedule["matched_centers"]
+        evaluated_centers = best_schedule["evaluated_centers"]
+
+        probability = (matched_centers + 1) / (evaluated_centers + 2)
+        if probability < minimum_probability:
+            continue
+
+        expected_count = best_schedule["matched_events"] / matched_centers
+
+        period = best_schedule["period_days"]
+        phase_date = best_schedule["phase_date"]
+        periods_to_forecast = math.ceil((forecast_start - phase_date).days / period)
+        first_prediction = phase_date + timedelta(days=periods_to_forecast * period)
+
+        for i in range(0, (forecast_end - first_prediction).days + 1, period):
+            center = first_prediction + timedelta(days=i)
+
+            if is_during_break(center):
+                continue
+
+            deadline_exists = False
+            for date in clusters:
+                if abs((center - date).days) <= date_tolerance:
+                    deadline_exists = True
+                    break
+
+            if deadline_exists:
+                continue
+
+            predictions.append({"subject": subject,
+                                "predicted_deadline": center,
+                                "date_window": (center - tolerance, center + tolerance),
+                                "occurrence_probability": probability,
+                                "expected_event_count": expected_count,
+                                "period_days": period,
+                                "fit": best_schedule["fit"],
+                                "matched_centers": matched_centers,
+                                "evaluated_centers": evaluated_centers,
+                                "unmatched_dates": best_schedule["unmatched_dates"]})
+
+    return sorted(predictions, key=lambda prediction: (prediction["predicted_deadline"], prediction["subject"]))
 
 
 
@@ -14,21 +236,18 @@ def normalize_deadline(event: dict) -> datetime:
     return datetime.combine(due_date, time.max)
 
 
-
-def daily_overload_penalty(hours: float, comfortable_hours: float, penalty = lambda x: x ** 2) -> float:
-    return penalty(max(0, hours - comfortable_hours))
-
+def daily_overload_penalty(hours: float, allowance: float, penalty = lambda x: x ** 2) -> float:
+    return penalty(max(0, hours - allowance))
 
 
 def last_workday(event: dict, cutoff = time(20, 0)) -> date:
     deadline = normalize_deadline(event)
-    day = deadline.date()
+    date = deadline.date()
 
     if deadline.time() < cutoff:
-        return day - timedelta(days=1)
+        return date - timedelta(days=1)
 
-    return day
-
+    return date
 
 
 def relaxed_remaining_score(current_day: int, state: tuple, groups_by_unit: dict,
@@ -60,20 +279,19 @@ def relaxed_remaining_score(current_day: int, state: tuple, groups_by_unit: dict
             iterating_day += 1
 
         for _ in range(unit):
-            penalty_cost, day = heappop(daily_offers)
+            penalty_cost, date = heappop(daily_offers)
 
             total_penalty += penalty_cost
-            total_ew_cost += day
-            assigned_units[day] += 1
+            total_ew_cost += date
+            assigned_units[date] += 1
 
-            hours = assigned_units[day] / 2
-            allowance = allowance_by_day[day]
+            hours = assigned_units[date] / 2
+            allowance = allowance_by_day[date]
             heappush(daily_offers, (
-                daily_overload_penalty(hours + 0.5, allowance) - daily_overload_penalty(hours, allowance), day
+                daily_overload_penalty(hours + 0.5, allowance) - daily_overload_penalty(hours, allowance), date
             ))
 
     return total_penalty, total_ew_cost
-
 
 
 def greedy_benchmark_score(groups_by_unit: dict, sorted_units: list,
@@ -111,8 +329,7 @@ def greedy_benchmark_score(groups_by_unit: dict, sorted_units: list,
         total_ew_cost += chosen_day * unit
         plan[chosen_day][unit_index] += 1
 
-    return (total_penalty, total_ew_cost), [tuple(day) for day in plan]
-
+    return (total_penalty, total_ew_cost), [tuple(date) for date in plan]
 
 
 def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 2, 3, 1, 2)) -> dict:
@@ -125,9 +342,6 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 
 
         if last_day < 0:
             continue
-
-        if event_units > 16:
-            raise ValueError("Event duration longer than 8 hours")
 
         if event_units not in groups_by_unit:
             groups_by_unit[event_units] = []
@@ -227,7 +441,7 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 
 
     return timeline
 
-    
+
 
 if __name__ == "__main__":
     print(build_timeline([

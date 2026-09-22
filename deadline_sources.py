@@ -10,6 +10,7 @@ def get_html(url: str) -> tuple[str, str]:
     '''Returns the whole string of the website's html'''
     
     response = requests.get(url)
+    response.encoding = "utf-8"
     return response.text, url
 
 
@@ -50,7 +51,7 @@ def extract_deadlines_owl(url: str) -> list:
                         if date_string:
                             event_reference = row.locator("a").first.get_attribute("href")
                             date = datetime.strptime(date_string, "%Y-%m-%d %H:%M")
-                            event.append({"title": title, "due_date": date, "description": url + event_reference})
+                            event.append({"title": title, "due_date": date, "description": url + event_reference, "subject": subject})
                         
                     page.goto(url)
                                  
@@ -98,7 +99,7 @@ def extract_deadlines_recodex(url: str) -> list:
                     title = event_title.text_content()
                     event_reference = table_data.locator("a").first.get_attribute("href")[4:]
                     
-                    event.append({"title": f"{subject} {title}", "due_date": date, "description": url + event_reference})
+                    event.append({"title": f"{subject} {title}", "due_date": date, "description": url + event_reference, "subject": subject})
                 
             card.locator('[data-icon="minus"]').first.click()
     
@@ -123,7 +124,7 @@ def extract_deadlines_nt(html: str, url: str) -> list:
                 if item.name == "a":
                     new_url = item.get("href")
             
-            event.append({"title": f"Teorie čísel {title}", "due_date": date, "description": new_url})
+            event.append({"title": f"Teorie čísel {title}", "due_date": date, "description": new_url, "subject": "Teorie čísel"})
             
     return event
 
@@ -142,11 +143,9 @@ def extract_deadlines_rr(html: str, url: str) -> list:
             
             title = contents[0].get_text().replace(" ", "", 1)
             reference = contents[0].get("href")
-            date_string = contents[1].get_text().strip("()– \n")
-            if date_string == "do 31. 11. 2025":
-                date_string = "do 20. 4. 2026"
+            date_string = contents[1].get_text().strip("()– \n\r")
             date = datetime.strptime(date_string, "do %d. %m. %Y").date()
             
-            event.append({"title": f"Řešitelský seminář {title}", "due_date": date, "description": url + reference})
+            event.append({"title": f"Řešitelský seminář {title}", "due_date": date, "description": url + reference, "subject": "Řešitelský seminář"})
     
     return event

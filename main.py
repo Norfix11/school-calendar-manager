@@ -24,7 +24,7 @@ def main():
         live_events += extract_deadlines_owl("https://owl.mff.cuni.cz")
         
         #resitelak
-        rr_page, url = get_html("https://karlin.mff.cuni.cz/resitel/")
+        rr_page, url = get_html("https://karlin.mff.cuni.cz/resitel/LS2526/index.html")
         live_events += extract_deadlines_rr(rr_page, url)
         
         #recodex
