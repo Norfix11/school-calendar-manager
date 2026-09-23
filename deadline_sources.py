@@ -7,7 +7,8 @@ from playwright.sync_api import sync_playwright
 
 
 def get_html(url: str) -> tuple[str, str]:
-    '''Returns the whole string of the website's html'''
+    '''Returns the whole string of the website's html
+    and the given url.'''
     
     response = requests.get(url)
     response.encoding = "utf-8"
@@ -15,6 +16,9 @@ def get_html(url: str) -> tuple[str, str]:
 
 
 def extract_deadlines_owl(url: str) -> list:
+    """Extracts deadlines from the Postal Owl website with given url.
+    Returns events in a list, with each event being a dictionary."""
+
     event = []
 
     with sync_playwright() as p:
@@ -37,7 +41,7 @@ def extract_deadlines_owl(url: str) -> list:
                     link = links.nth(j)
                     reference = link.get_attribute("href")
                     
-                    #deadline extraction from a subject page
+                    # Deadline extraction from a subject page
                     page.goto(url + reference)
                     subject = page.locator("h2").first.text_content()
                     rows = page.locator("tr.told, tr.tnew")
@@ -59,6 +63,9 @@ def extract_deadlines_owl(url: str) -> list:
 
 
 def extract_deadlines_recodex(url: str) -> list:
+    """Extracts deadlines from the Recodex website with given url.
+    Returns events in a list, with each event being a dictionary."""
+
     event = []
     
     with sync_playwright() as p:
@@ -82,7 +89,7 @@ def extract_deadlines_recodex(url: str) -> list:
             if not subject:
                 subject = card_title.locator("a").first.text_content()
             
-            #deadline extraction from dropdown
+            # Deadline extraction from dropdown
             card.locator('[data-icon="plus"]').first.click()
             rows = card.locator("tr")
             page.wait_for_timeout(500)
@@ -107,6 +114,9 @@ def extract_deadlines_recodex(url: str) -> list:
     
 
 def extract_deadlines_nt(html: str, url: str) -> list:
+    """Extracts deadlines from the Number theory subject website with given url.
+    Returns events in a list, with each event being a dictionary."""
+
     soup = BeautifulSoup(html, "html.parser")
     event = []
     
@@ -130,6 +140,9 @@ def extract_deadlines_nt(html: str, url: str) -> list:
 
 
 def extract_deadlines_rr(html: str, url: str) -> list:
+    """Extracts deadlines from the Resitelsky seminar website with given url.
+    Returns events in a list, with each event being a dictionary."""
+
     soup = BeautifulSoup(html, "html.parser")
     event = []
     

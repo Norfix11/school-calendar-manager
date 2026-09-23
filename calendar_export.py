@@ -4,7 +4,9 @@ from icalendar import Calendar, Event
 
 
 
-def sync_to_apple_calendar(combined_events: list):
+def sync_to_apple_calendar(combined_events: list) -> None:
+    """Uploads given events to apple calendar."""
+
     calendar_name = "Homework Deadlines"
     serialized_events = []
     month_names = [
@@ -111,7 +113,10 @@ def sync_to_apple_calendar(combined_events: list):
     print(f'"{calendar_name}" calendar synced successfully')
    
         
-def build_backup_ics(combined_events: list, output_file="homework_deadlines.ics"):
+def build_backup_ics(combined_events: list, output_file="homework_deadlines.ics") -> None:
+    """Builds a backup .ics file of given events in a given output_file.
+    Requires input to be of type .ics, or is by default."""
+
     calendar = Calendar()
     calendar.add("prodid", "-//Homework Deadlines//")
     calendar.add("version", "2.0")

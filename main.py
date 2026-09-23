@@ -119,4 +119,17 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="School Calendar Manager")
+    parser.add_argument("--cli", action="store_true", help="Run the existing console workflow")
+    parser.add_argument("--no-browser", action="store_true", help="Print the local UI address without opening it")
+    parser.add_argument("--port", type=int, default=0, help="Local UI port (default: choose an available port)")
+    args = parser.parse_args()
+
+    if args.cli:
+        main()
+    else:
+        from frontend import launch
+
+        launch(port=args.port, open_browser=not args.no_browser)

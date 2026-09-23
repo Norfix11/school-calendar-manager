@@ -1,0 +1,3566 @@
+[
+    {
+        "title": "Linear Algebra - historical round 01, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-05-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 01, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-05-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 02, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 02, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 02, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 02, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 03, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 03, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 04, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 04, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 04, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 04, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 05, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 05, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 06, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 06, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 06, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 06, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-06-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 07, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 07, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 08, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 08, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 08, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 08, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 09, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 09, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 10, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 10, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 10, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 10, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-07-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 11, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 11, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 12, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 12, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 12, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 12, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 13, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 13, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 14, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 14, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 14, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 14, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 15, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 15, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 16, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 16, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 16, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 16, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 17, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 17, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 18, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 18, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 18, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - historical round 18, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - upcoming round 1, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-28T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 1, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-28T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 1, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-28T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 1, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-28T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 2, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-05T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 2, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-05T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 2, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-05T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 2, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-05T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 3, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-12T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 3, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-12T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 3, exercise 3",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-12T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - upcoming round 3, exercise 4",
+        "subject": "Linear Algebra",
+        "due_date": "2026-10-12T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - historical round 01, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-05-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 01, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-05-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 02, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 02, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 02, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 02, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 03, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 03, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 04, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 04, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 04, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 04, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 05, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 05, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 06, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 06, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 06, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 06, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-06-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 07, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 07, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 08, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 08, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 08, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 08, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 09, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 09, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 10, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 10, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 10, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 10, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-07-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 11, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 11, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 12, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 12, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 12, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 12, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 13, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 13, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 14, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 14, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 14, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 14, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 15, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 15, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 16, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 16, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 16, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 16, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 17, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 17, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 18, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 18, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 18, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - historical round 18, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - upcoming round 1, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-29T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 1, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-29T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 1, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-29T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 1, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-29T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 2, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-06T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 2, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-06T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 2, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-06T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 2, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-06T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 3, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-13T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 3, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-13T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 3, exercise 3",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-13T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - upcoming round 3, exercise 4",
+        "subject": "Real Analysis",
+        "due_date": "2026-10-13T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - historical round 01, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-05-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 01, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-05-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 02, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 02, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 02, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 02, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 03, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 03, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 04, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 04, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 04, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 04, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 05, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 05, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-06-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 06, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 06, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 06, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 06, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 07, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 07, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 08, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 08, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 08, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 08, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 09, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 09, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 10, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 10, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 10, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 10, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-07-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 11, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 11, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 12, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 12, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 12, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 12, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 13, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 13, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 14, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 14, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 14, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 14, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 15, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 15, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 16, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 16, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 16, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 16, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 17, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 17, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 18, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 18, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 18, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - historical round 18, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 1, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 1, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 1, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 1, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 2, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-07T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 2, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-07T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 2, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-07T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 2, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-07T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 3, exercise 1",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-14T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 3, exercise 2",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-14T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 3, exercise 3",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-14T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Abstract Algebra - upcoming round 3, exercise 4",
+        "subject": "Abstract Algebra",
+        "due_date": "2026-10-14T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - historical round 01, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-05-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 01, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-05-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 02, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-05-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 02, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-05-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 02, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-05-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 02, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-05-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 03, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-06-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 03, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-06-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 04, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-06-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 04, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-06-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 04, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-06-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 04, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-06-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 05, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-06-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 05, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-06-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 06, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-06-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 06, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-06-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 06, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-06-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 06, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-06-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 07, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-07-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 07, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-07-02T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 08, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-07-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 08, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-07-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 08, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-07-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 08, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-07-09T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 09, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-07-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 09, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-07-16T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 10, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-07-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 10, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-07-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 10, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-07-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 10, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-07-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 11, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-07-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 11, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-07-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 12, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-08-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 12, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-08-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 12, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-08-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 12, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-08-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 13, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-08-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 13, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-08-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 14, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-08-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 14, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-08-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 14, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-08-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 14, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-08-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 15, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-08-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 15, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-08-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 16, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-09-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 16, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-09-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 16, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-09-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 16, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-09-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 17, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-09-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 17, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-09-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 18, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-09-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 18, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-09-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 18, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-09-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - historical round 18, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-09-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Probability - upcoming round 1, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-09-24T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 1, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-09-24T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 1, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-09-24T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 1, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-09-24T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 2, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-10-01T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 2, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-10-01T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 2, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-10-01T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 2, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-10-01T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 3, exercise 1",
+        "subject": "Probability",
+        "due_date": "2026-10-08T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 3, exercise 2",
+        "subject": "Probability",
+        "due_date": "2026-10-08T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 3, exercise 3",
+        "subject": "Probability",
+        "due_date": "2026-10-08T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Probability - upcoming round 3, exercise 4",
+        "subject": "Probability",
+        "due_date": "2026-10-08T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - historical round 01, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-05-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 01, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-05-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 02, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-05-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 02, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-05-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 02, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-05-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 02, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-05-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 03, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-06-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 03, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-06-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 04, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-06-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 04, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-06-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 04, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-06-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 04, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-06-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 05, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-06-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 05, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-06-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 06, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-06-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 06, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-06-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 06, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-06-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 06, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-06-26T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 07, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-07-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 07, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-07-03T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 08, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-07-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 08, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-07-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 08, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-07-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 08, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-07-10T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 09, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-07-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 09, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-07-17T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 10, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-07-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 10, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-07-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 10, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-07-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 10, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-07-24T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 11, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-07-31T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 11, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-07-31T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 12, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-08-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 12, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-08-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 12, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-08-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 12, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-08-07T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 13, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-08-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 13, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-08-14T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 14, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 14, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 14, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 14, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 15, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-08-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 15, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-08-28T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 16, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 16, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 16, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 16, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 17, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-09-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 17, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-09-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 18, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-09-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 18, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-09-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 18, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-09-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - historical round 18, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-09-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry - upcoming round 1, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 1, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 1, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 1, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 2, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-10-02T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 2, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-10-02T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 2, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-10-02T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 2, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-10-02T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 3, exercise 1",
+        "subject": "Geometry",
+        "due_date": "2026-10-09T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 3, exercise 2",
+        "subject": "Geometry",
+        "due_date": "2026-10-09T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 3, exercise 3",
+        "subject": "Geometry",
+        "due_date": "2026-10-09T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry - upcoming round 3, exercise 4",
+        "subject": "Geometry",
+        "due_date": "2026-10-09T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - historical round 01, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 01, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-23T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 02, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 02, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 02, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 02, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-05-30T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 03, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 03, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-06T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 04, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 04, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 04, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 04, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-13T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 05, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 05, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-20T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 06, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 06, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 06, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 06, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-06-27T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 07, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 07, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-04T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 08, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 08, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 08, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 08, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-11T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 09, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 09, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-18T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 10, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 10, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 10, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 10, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-07-25T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 11, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 11, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-01T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 12, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 12, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 12, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 12, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-08T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 13, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 13, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-15T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 14, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 14, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 14, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 14, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-22T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 15, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 15, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-29T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 16, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 16, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 16, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 16, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-05T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 17, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 17, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-12T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 18, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 18, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 18, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - historical round 18, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-19T23:55:00",
+        "description": "Synthetic benchmark: alternating assignment counts and recorded study times.",
+        "est_hours": 2.0,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - upcoming round 1, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-26T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 1, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-26T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 1, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-26T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 1, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-26T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 2, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-03T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 2, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-03T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 2, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-03T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 2, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-03T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 3, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-10T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 3, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-10T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 3, exercise 3",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-10T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - upcoming round 3, exercise 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-10-10T23:55:00",
+        "description": "Synthetic benchmark: known homework; keep the fourth weekly round unpublished for forecasting.",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
+    }
+]

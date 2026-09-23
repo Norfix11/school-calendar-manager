@@ -1,0 +1,371 @@
+[
+    {
+        "title": "Geometry Seminar - problem set 1, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-07-06T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 2, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-07-20T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 2, exercise 2",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-07-20T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 3, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-08-03T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 4, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-08-17T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 5, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 5, exercise 2",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - problem set 6, exercise 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-09-14T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 1, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-07-08T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 1, exercise 2",
+        "subject": "Number Theory",
+        "due_date": "2026-07-08T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 2, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-07-22T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 3, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 3, exercise 2",
+        "subject": "Number Theory",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 4, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 5, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 5, exercise 2",
+        "subject": "Number Theory",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Number Theory - problem set 6, exercise 1",
+        "subject": "Number Theory",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 1, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 2, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 2, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 3, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 4, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 4, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 5, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 6, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 6, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 7, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 8, exercise 1",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Numerical Methods - problem set 8, exercise 2",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Reading Project - milestone 1",
+        "subject": "Reading Project",
+        "due_date": "2026-07-10",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 3,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Reading Project - milestone 2",
+        "subject": "Reading Project",
+        "due_date": "2026-08-03",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 3,
+        "actual_hours": 4,
+        "completed": true
+    },
+    {
+        "title": "Reading Project - milestone 3",
+        "subject": "Reading Project",
+        "due_date": "2026-08-28",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 3,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Reading Project - milestone 4",
+        "subject": "Reading Project",
+        "due_date": "2026-09-19",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 3,
+        "actual_hours": 5,
+        "completed": true
+    },
+    {
+        "title": "Geometry Seminar - current task 1",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-09-28T18:00:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry Seminar - current task 2",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-09-28",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Number Theory - current task 3",
+        "subject": "Number Theory",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - current task 4",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Numerical Methods - current task 5",
+        "subject": "Numerical Methods",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Reading Project - current task 6",
+        "subject": "Reading Project",
+        "due_date": "2026-10-02",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 3,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Geometry Seminar - current task 7",
+        "subject": "Geometry Seminar",
+        "due_date": "2026-10-04T10:00:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 1,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Number Theory - current task 8",
+        "subject": "Number Theory",
+        "due_date": "2026-10-04T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    }
+]

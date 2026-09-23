@@ -1,0 +1,425 @@
+[
+    {
+        "title": "Linear Algebra - problem set 1, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 1, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-05T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 2, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 2, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-12T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 3, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 3, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-19T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.75,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 4, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.75,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 4, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-08-26T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 5, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 5, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-02T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 6, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 6, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-09T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 7, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 7, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-16T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.75,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 8, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.75,
+        "completed": true
+    },
+    {
+        "title": "Linear Algebra - problem set 8, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-23T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 1, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-03T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 2, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 2, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-10T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 3, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-17T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 4, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-24T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.75,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 5, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 5, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-08-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 6, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-07T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 7, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-14T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 3.5,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 8, exercise 1",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.75,
+        "completed": true
+    },
+    {
+        "title": "Real Analysis - problem set 8, exercise 2",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-21T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 2.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 1, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-07-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 0.75,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 1, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-07-31T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 2, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-07T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 3, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-14T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.25,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 3, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-14T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 3, exercise 3",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-14T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 0.75,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 4, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 4, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-21T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 0.75,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 5, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-08-28T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 0.75,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 6, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 6, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.25,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 6, exercise 3",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-04T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 7, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-11T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.25,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 7, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-11T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - problem set 8, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-18T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": 1.5,
+        "completed": true
+    },
+    {
+        "title": "Discrete Mathematics - new set, exercise 1",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Discrete Mathematics - new set, exercise 2",
+        "subject": "Discrete Mathematics",
+        "due_date": "2026-09-25T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Real Analysis - uniform convergence",
+        "subject": "Real Analysis",
+        "due_date": "2026-09-28T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - new set, exercise 1",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    },
+    {
+        "title": "Linear Algebra - new set, exercise 2",
+        "subject": "Linear Algebra",
+        "due_date": "2026-09-30T23:55:00",
+        "description": "Synthetic demonstration assignment; not a real course deadline.",
+        "est_hours": 2,
+        "actual_hours": null,
+        "completed": false
+    }
+]

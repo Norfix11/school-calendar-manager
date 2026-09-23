@@ -1,0 +1,72 @@
+Prvu cast som robil este pocas semestra a nedokumentoval som to sem, robil som kod pre svoje ucely.
+Vytvoril som kopu suborov a rozdelil som funkcie do nich aby to vyzeralo ako projekt.
+
+Nemam s tymto ziadnu skusenost ale nasiel som si ako by malo fungovat to ukladanie,
+taktiez som tam proste hodil tie ulohy vsetky v ziadnom rozumnom formate.
+
+Neviem ako zacat funkciu na postavenie rozvrhu ale spravil som zatial kopu helperov.
+
+Spravim asi DP, chcel by som to spravit nejak inak matematicky cez teoriu grafov, ale nic
+ine sa mi nezda rozumne, skusal som nejak carovat s Hallovou vetou, ale neviem to vymysliet. 
+:/ Aspon aby to nebolo exponencialne (asi neratal som to v skutocnosti) som boundol maximalnu dlzku
+ulohy na 8 hodin, potom ulohy rozdelim do tried po pol hodine a budem ich dynamicky hadzat do rozvrhu
+podla najskorsieho deadlinu.
+
+Sortenie tuplov je najlepsia vec
+
+Spravil som tu dynamiku, nepaci sa mi ake je to pomale akoze mam malo dat ale nech to je sranda.
+Aspon to funguje, neviem ako inak by som to spravil. Este backtrack.
+
+(zistil som ze to co robim je technicky prehladavanie stavoveho priestoru do sirky + memoizacia)
+
+Spytal som sa Chata na hint a povedal mi, ze mam spravit dve dalsie funkcie,
+jednu kde to proste spocitam rychlo tak to robim proste greedy a druhu, kde to spocitam rychlo lebo
+rozdelim ulohu na 0.5 oddelitelnych casti, akoze tu mi povedal ze to mam takto spravit. Potom ked to 
+budem prehladavat tak mam nejake benchmark score a mozem aktualnu vetvu dokoncit tym 0.5 delenim a ak
+to skore bude horsie ako greedy tak ho mozem zahodit + memoizacia. Velmi smart
+
+Spravil som tie dve funkcie, lebo na to som si trufal, ale strasne ma uz boli hlava a fakt nechcem prerabat
+tu hlavnu funkciu ale uz som spravil tie hlupe dve tak co ine mi zostava.
+
+Dobre all done, ale uz tu idem strasne overkill a ked som to tu cital tak som zistil ze som hore napisal
+taku paradnu vec, ze vlastne prehladavam stavovy priestor do sirky. A teraz ked mam tuto optimalizaciu,
+tak si hovorim ze to by bolo lepsie do hlbky ovela, lebo skor budeme mat nejake nie blbe greedy score
+a potom mozem zahadzovat vela vetiev. To uz musim teraz spravit to je brutalne este to su aj grafy. <3
+Ale uz dnes pass adios.
+
+Dobre dorobil som cely ten rozvrh do hlbky, bolo to bolestive ale je to paradne.
+(Zabudam toto tu pisat cez den vlastne to pisem len ked idem spat vzdy)
+Zajtra statistika
+
+Zomieram a nevladzem sem pisat co som vsetko dnes spravil. Ale su to brutalne veci narval som na to konvolucie,
+lebo preco nie. Ale je to fakt mudre cele, ja som si rozmyslel ze pocitajme pravdepodobnost ze uloha bude mat jednotlive
+dlzky, aby sme to potom mohli s ostatnymi ulohami proste "konvolovat", lenze som to potreboval pocitat z historickych dat,
+tak som spravil standard deviation neviem ako je to po slovensky a variaciu a spytal som sa Chata nech mi povie ako z toho
+spravim taku funkciu ako chcem. Takze som potom hodinu zistoval co to ta gamma distribucia vlastne je a je to paradna vec.
+A najbrutalnejsie je ako pocitam konvolucie len do nejakej dovolenej velkosti, potom odcitam 1 od suctu tych pravdepodobnosti,
+lebo mna vlastne zaujima aka je sanca ze tie ulohy dokopy budu mat dlhsiu dlzku ako nieco a potom nemusim mat 
+neidentifikovatelne dlhe listy.
+
+A este som vlastne spravil aj predikciu ale to je viac menej trivialne, nechcel som to uz komplikovat mam malo casu a uz je
+toho strasne vela a este furt to nie je hotove... Takze predpokladam ze je jedine tyzdnova alebo dvojtyzdnova perioda a spocitam
+kolko percent sme sa trafili to je cele potom porovnam.
+
+Myslel som si ze je to uz hotove a toho je este strasne vela. Dnes to musim dokoncit please. Robim tu poslednu cast co
+som slubil ze tam bude a to je ten odhad narocnosti tyzdna. A napadla mi hrozne mudra vec zas alebo leniva ako sa to vezme,
+ze pouzijem to co mam pre dni akurat pre tyzden takze ta ista gamma distribucia ulohy a konvolujeme cez cely tyzden.
+No lenze teraz musim vsetko to co som mal uz napisane rozdelit na tisic casti aby to mohla ta nova funkcia pouzit.
+A prestavam mat napady ako mam pomenovavat premenne takze to sa pytam Chata.
+
+Hotovo a funguje to! Brutal, takze teraz je na rade Chato asi aby spravil front-end. Taktiez som bol lenivy doteraz, takze mozem ist
+pisat komentare. A este som urobil ze main to dava cele dokopy + zatial je frontend kopa printov, nechcelo sa mi ich vymyslat,
+takze som to nechal napisat Chataka aby som to mohol testovat.
+
+Also ked uz tu mam cely log zabudol som napisat ze este predtym som dal dokopy tie vsetky veci z risk_analysis a normalizoval
+som eventy vo vseobecnosti aby neboli problemy lebo bolo ich hodne. Az potom Chat spravil tie veci v main. Nech je v tom poriadok.
+
+Uz zas vidim ze tu budem do rana lebo chcem aby to bolo hotove uz. Idem pisat tie komenty.
+
+Komenty ma raz zabiju, preco som ich nepisal pocas programovania...
+
+Chat mi spravil user web interface co je nice uz je to aj pouzitelne. Prekopiroval som toto z Apple notes do txt sem,
+zostava mi este okomentovat risk analysis, co sa mi uz nechce a napisat dokumentaciu. Takze rano je hotovo.
