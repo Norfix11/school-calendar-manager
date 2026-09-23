@@ -9,6 +9,92 @@ from bisect import bisect_left
 
 
 
+def analyze_events(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 2, 3, 1, 2),
+                   forecast_end = None, history_start = None, breaks = None,
+                   est_hours_override = None, daily_step_hours = 0.1, weekly_step_hours = 0.25) -> dict:
+    hours_by_subject = {}
+    unfinished_events = []
+
+    for event in events:
+        if event.get("completed_at") is not None:
+            subject = event["subject"]
+
+            if subject not in hours_by_subject:
+                hours_by_subject[subject] = []
+            hours_by_subject[subject].append(event["actual_hours"])
+
+        else:
+            unfinished_events.append(event)
+
+    planning_events = []
+    for event in unfinished_events:
+
+        if event["subject"] in hours_by_subject:
+            past_hours = hours_by_subject[event["subject"]]
+        else:
+            past_hours = []
+
+        estimate = estimate_event_duration(event["est_hours"], past_hours)
+
+        planning_event = event.copy()
+        planning_event["est_hours"] = estimate["expected_hours"]
+        planning_event["distribution"] = estimate["distribution"]
+
+        planning_events.append(planning_event)
+
+    timeline = build_timeline(planning_events, start_date, hours_by_weekday)
+
+    daily_risk = {}
+    for date, assigned_events in timeline.items():
+        distributions = []
+
+        for event in assigned_events:
+            distributions.append(event["distribution"])
+
+        allowance = hours_by_weekday[date.weekday()]
+        daily_risk[date] = daily_overload_probability(distributions, allowance, daily_step_hours)
+
+
+    predictions = []
+    weekly_risk = {}
+    if forecast_end is not None:
+
+        predictions = predict_events(events, start_date, forecast_end, history_start, breaks)
+        distribution_by_subject = {}
+
+        for prediction in predictions:
+            subject = prediction["subject"]
+
+            if subject not in distribution_by_subject:
+
+                if est_hours_override is not None and subject in est_hours_override:
+                    est_hours = est_hours_override[subject]
+                else:
+                    total_est_hours = 0
+                    count = 0
+                    for event in events:
+                        if event["subject"] == subject and event.get("est_hours") is not None:
+                            total_est_hours += event["est_hours"]
+                            count += 1
+                    if count == 0:
+                        raise ValueError(f"No initial duration estimate for subject: {subject}")
+                    
+                    est_hours = total_est_hours / count
+
+                past_hours = hours_by_subject.get(subject, [])
+                estimate = estimate_event_duration(est_hours, past_hours)
+                distribution_by_subject[subject] = {"distribution": estimate["distribution"], "expected_hours": estimate["expected_hours"]}
+
+            prediction["distribution"] = distribution_by_subject[subject]["distribution"]
+            prediction["expected_hours"] = distribution_by_subject[subject]["expected_hours"]
+
+        weekly_risk = weekly_workload_risk(planning_events, predictions, start_date,
+                                          forecast_end, hours_by_weekday, weekly_step_hours)
+
+    return {"timeline": timeline, "daily_risk": daily_risk,
+            "predictions": predictions, "weekly_risk": weekly_risk}
+
+
 def estimate_event_duration(est_hours: float, past_hours: list, initial_weight = 2.0,
                            relative_deviation = 0.5, interval_probability = 0.9) -> dict:
 
@@ -32,30 +118,115 @@ def estimate_event_duration(est_hours: float, past_hours: list, initial_weight =
             "interval_probability": interval_probability, "shape": shape, "scale": scale, "distribution": distribution}
 
 
-def daily_overload_probability(distributions: list, allowance: float,
-                               step_hours = 0.1) -> float:
-    if not distributions:
-        return 0.0
-    if allowance == 0:
-        return 1.0
+def daily_overload_probability(distributions: list, allowance: float, step_hours = 0.1) -> float:
+    grid_array = workload_grid(allowance, step_hours)
 
-    interval_count = math.ceil(allowance / step_hours)
-    grid_array = np.linspace(0, allowance, interval_count + 1)
-
-    total_probabilities = np.array([1.0])
+    total_probabilities = np.zeros(len(grid_array))
+    total_probabilities[0] = 1.0
 
     for distribution in distributions:
-        cumulative_probabilities = distribution.cdf(grid_array)
-        event_probabilities = np.diff(cumulative_probabilities, prepend = 0.0)
+        event_probabilities = event_duration_probabilities(distribution, grid_array)
+        total_probabilities = convolve_workload_probabilities(total_probabilities, event_probabilities)
 
-        total_probabilities = fftconvolve(total_probabilities, event_probabilities)
+    return overload_from_probabilities(total_probabilities)
 
-        #cutting unnecessary information
-        total_probabilities = total_probabilities[:interval_count + 1]
-        total_probabilities = np.maximum(total_probabilities, 0.0)
 
-    overload_probability = 1 - float(total_probabilities.sum())
+def workload_grid(allowance: float, step_hours = 0.1) -> np.ndarray:
+    interval_count = math.ceil(allowance / step_hours)
+    return np.linspace(0, allowance, interval_count + 1)
+
+
+def event_duration_probabilities(distribution, grid: np.ndarray) -> np.ndarray:
+    cumulative_probabilities = distribution.cdf(grid)
+    return np.maximum(np.diff(cumulative_probabilities, prepend=0.0), 0.0)
+
+
+def convolve_workload_probabilities(first: np.ndarray, second: np.ndarray) -> np.ndarray:
+    #both arrays must describe the same grid
+    if len(first) != len(second):
+        raise ValueError("Workload arrays must use the same grid")
+    combined = fftconvolve(first, second)[:len(first)]
+    return np.maximum(combined, 0.0)
+
+
+def overload_from_probabilities(probabilities: np.ndarray) -> float:
+    overload_probability = 1 - float(probabilities.sum())
     return max(0.0, min(1.0, overload_probability))
+
+
+def predicted_workload_probabilities(distribution, centers_by_event_count: dict, matched_centers: int,
+                                     occurrence_probability: float, grid: np.ndarray) -> np.ndarray:
+
+    event_probabilities = event_duration_probabilities(distribution, grid)
+    total_probabilities = np.zeros(len(grid))
+    total_probabilities[0] = 1.0
+
+    predicted_probabilities = np.zeros(len(grid))
+    predicted_probabilities[0] = 1 - occurrence_probability
+
+    for event_count in range(1, max(centers_by_event_count) + 1):
+        total_probabilities = convolve_workload_probabilities(total_probabilities, event_probabilities)
+
+        count_probability = centers_by_event_count.get(event_count, 0) / matched_centers
+        predicted_probabilities += occurrence_probability * count_probability * total_probabilities
+
+    return predicted_probabilities
+
+
+def weekly_workload_risk(planning_events: list, predictions: list, start_date: date, forecast_end: date, 
+                         hours_by_weekday: tuple, step_hours = 0.25) -> dict:
+    weekly_risk = {}
+    week_start = start_date - timedelta(days=start_date.weekday())
+
+    while week_start <= forecast_end:
+        period_start = max(week_start, start_date)
+        period_end = min(week_start + timedelta(days=6), forecast_end)
+        allowance = sum(hours_by_weekday[period_start.weekday() : period_end.weekday() + 1])
+
+        grid = workload_grid(allowance, step_hours)
+        known_probabilities = np.zeros(len(grid))
+        known_probabilities[0] = 1.0
+        known_hours = 0.0
+        
+        for event in planning_events:
+            deadline = event["due_date"]
+
+            if isinstance(deadline, datetime):
+                date = deadline.date() 
+            else: date = deadline
+
+            if period_start <= date <= period_end:
+                distribution = event["distribution"]
+                event_probabilities = event_duration_probabilities(distribution, grid)
+                known_probabilities = convolve_workload_probabilities(known_probabilities, event_probabilities)
+                known_hours += event["est_hours"]
+
+        forecast_probabilities = known_probabilities.copy()
+        forecast_hours = known_hours
+
+        for prediction in predictions:
+            if period_start <= prediction["predicted_deadline"] <= period_end:
+                distribution = prediction["distribution"]
+                centers_by_event_count = prediction["centers_by_event_count"]
+                occurrence = prediction["occurrence_probability"]
+                probabilities = predicted_workload_probabilities(distribution, centers_by_event_count, prediction["matched_centers"], occurrence, grid)
+                forecast_probabilities = convolve_workload_probabilities(forecast_probabilities, probabilities)
+
+                expected_count = prediction["expected_event_count"]
+                expected_hours = prediction["expected_hours"]
+                forecast_hours += (occurrence * expected_count * expected_hours)
+
+        weekly_risk[week_start] = {"period_start": period_start,
+                                   "period_end": period_end,
+                                   "allowance": allowance,
+                                   "known_hours": known_hours,
+                                   "forecast_hours": forecast_hours,
+                                   "known_overload_probability": overload_from_probabilities(known_probabilities),
+                                   "forecast_overload_probability": overload_from_probabilities(forecast_probabilities)}
+        
+        week_start += timedelta(days=7)
+
+    return weekly_risk
 
 
 def predict_events(
@@ -77,7 +248,7 @@ def predict_events(
 
 
     def is_during_break(date):
-        if not breaks:
+        if breaks is None:
             return False
         
         return any(start <= date <= end for start, end in breaks)
@@ -112,7 +283,7 @@ def predict_events(
             continue
         date_history.sort()
 
-        if history_start:
+        if history_start is not None:
             earliest_candidate_date = history_start - tolerance
         else:
             earliest_candidate_date = date_history[0] - tolerance
@@ -129,6 +300,7 @@ def predict_events(
                 matched_events = 0
                 matched_weight = 0
                 total_shift = 0
+                centers_by_event_count = {}
 
                 center = earliest_candidate_date + timedelta(days=phase)
 
@@ -150,7 +322,13 @@ def predict_events(
                         #windows cannot overlap
                         if closest_distance <= date_tolerance:
                             matched_centers += 1
-                            matched_events += clusters[closest_date]
+                            event_count = clusters[closest_date]
+                            matched_events += event_count
+
+                            if event_count not in centers_by_event_count:
+                                centers_by_event_count[event_count] = 0
+                            centers_by_event_count[event_count] += 1
+                            
                             total_shift += closest_distance
                             matched_weight += match_weight_function(closest_distance, date_tolerance)
 
@@ -168,19 +346,18 @@ def predict_events(
                 fit = matched_weight / (evaluated_centers + unmatched_dates)
                 score = (fit, matched_centers, -total_shift, -period)
 
-                if not best_score or score > best_score:
+                if best_score is None or score > best_score:
                     best_score = score
-                    best_schedule = {
-                        "period_days": period,
-                        "phase_date": earliest_candidate_date + timedelta(days=phase),
-                        "fit": fit,
-                        "matched_centers": matched_centers,
-                        "evaluated_centers": evaluated_centers,
-                        "unmatched_dates": unmatched_dates,
-                        "matched_events": matched_events,
-                    }
+                    best_schedule = {"period_days": period,
+                                    "phase_date": earliest_candidate_date + timedelta(days=phase),
+                                    "fit": fit,
+                                    "matched_centers": matched_centers,
+                                    "evaluated_centers": evaluated_centers,
+                                    "unmatched_dates": unmatched_dates,
+                                    "matched_events": matched_events,
+                                    "centers_by_event_count": centers_by_event_count}
 
-        if not best_schedule or best_schedule["fit"] < minimum_fit:
+        if best_schedule is None or best_schedule["fit"] < minimum_fit:
             continue
 
         matched_centers = best_schedule["matched_centers"]
@@ -217,6 +394,7 @@ def predict_events(
                                 "date_window": (center - tolerance, center + tolerance),
                                 "occurrence_probability": probability,
                                 "expected_event_count": expected_count,
+                                "centers_by_event_count": best_schedule["centers_by_event_count"].copy(),
                                 "period_days": period,
                                 "fit": best_schedule["fit"],
                                 "matched_centers": matched_centers,
@@ -444,16 +622,4 @@ def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 
 
 
 if __name__ == "__main__":
-    print(build_timeline([
-        {"title": "Algebra", "est_hours": 2,
-        "due_date": datetime(2026, 9, 19, 23, 55)},
-        {"title": "Analysis", "est_hours": 1,
-        "due_date": date(2026, 9, 18)},
-        {"title": "Geometry", "est_hours": 2,
-        "due_date": datetime(2026, 9, 17, 10, 0)},
-        {"title": "Combinatorics", "est_hours": 1.2,
-        "due_date": date(2026, 9, 20)},
-    ], date(2026, 9, 16)))
-
-    print(build_timeline([{"title": "Algebra", "est_hours": 2,
-            "due_date": datetime(2026, 9, 19, 23, 55)}], date(2026, 9, 16)))
+    pass
