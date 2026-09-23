@@ -9,14 +9,14 @@ from bisect import bisect_left
 
 
 
-def analyze_events(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 2, 3, 1, 2),
+def analyze_events(events: list, start_date: date, hours_by_weekday: tuple,
                    forecast_end = None, history_start = None, breaks = None,
-                   est_hours_override = None, daily_step_hours = 0.1, weekly_step_hours = 0.25) -> dict:
+                   est_hours_override = None, daily_step_hours = 0.1, weekly_step_hours = 0.1) -> dict:
     hours_by_subject = {}
     unfinished_events = []
 
     for event in events:
-        if event.get("completed_at") is not None:
+        if event.get("completed"):
             subject = event["subject"]
 
             if subject not in hours_by_subject:
@@ -97,7 +97,9 @@ def analyze_events(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 
 
 def estimate_event_duration(est_hours: float, past_hours: list, initial_weight = 2.0,
                            relative_deviation = 0.5, interval_probability = 0.9) -> dict:
-
+    if est_hours <= 0:
+        raise ValueError("Initial estimated hours must be greater than zero")
+    
     total_weight = initial_weight + len(past_hours)
     expected_hours = (initial_weight * est_hours + math.fsum(past_hours)) / total_weight
 
@@ -174,7 +176,7 @@ def predicted_workload_probabilities(distribution, centers_by_event_count: dict,
 
 
 def weekly_workload_risk(planning_events: list, predictions: list, start_date: date, forecast_end: date, 
-                         hours_by_weekday: tuple, step_hours = 0.25) -> dict:
+                         hours_by_weekday: tuple, step_hours = 0.1) -> dict:
     weekly_risk = {}
     week_start = start_date - timedelta(days=start_date.weekday())
 
@@ -510,7 +512,7 @@ def greedy_benchmark_score(groups_by_unit: dict, sorted_units: list,
     return (total_penalty, total_ew_cost), [tuple(date) for date in plan]
 
 
-def build_timeline(events: list, start_date: date, hours_by_weekday = (1, 3, 3, 2, 3, 1, 2)) -> dict:
+def build_timeline(events: list, start_date: date, hours_by_weekday: tuple) -> dict:
     groups_by_unit = {}
     event_count = 0
 

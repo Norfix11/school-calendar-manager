@@ -146,6 +146,6 @@ def extract_deadlines_rr(html: str, url: str) -> list:
             date_string = contents[1].get_text().strip("()– \n\r")
             date = datetime.strptime(date_string, "do %d. %m. %Y").date()
             
-            event.append({"title": f"Řešitelský seminář {title}", "due_date": date, "description": url + reference, "subject": "Řešitelský seminář"})
+            event.append({"title": f"Řešitelský seminář {title}", "due_date": date, "description": reference, "subject": "Řešitelský seminář"})
     
     return event

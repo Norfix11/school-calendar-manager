@@ -3,564 +3,846 @@
         "title": "Teorie čísel 1.sada",
         "due_date": "2026-03-17",
         "description": "https://drive.google.com/file/d/13KKVbUwFFRVpwVyDYDLAd6ZpdnzvOs7T/view?usp=sharing",
-        "subject": "Teorie čísel"
+        "subject": "Teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Teorie čísel 2.sada",
         "due_date": "2026-04-07",
         "description": "https://drive.google.com/file/d/1hMCRQuaKzjjQfaFhrAd8YWPteVIlXNFp/view?usp=sharing",
-        "subject": "Teorie čísel"
+        "subject": "Teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Teorie čísel 3.sada",
         "due_date": "2026-04-28",
         "description": "https://drive.google.com/file/d/1mIBj1FgJqCsyhcG9qh3ckKHpyMSiy-te/view?usp=sharing",
-        "subject": "Teorie čísel"
+        "subject": "Teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Teorie čísel 4.sada",
         "due_date": "2026-06-02",
         "description": "https://drive.google.com/file/d/19Z_AMdZ1wrGFM0LpFwrMi2VIQ3vXm3G3/view?usp=sharing",
-        "subject": "Teorie čísel"
+        "subject": "Teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 1.1",
         "due_date": "2026-03-04T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du01_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 1.2",
         "due_date": "2026-03-04T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du01_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 2.1",
         "due_date": "2026-03-11T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du02_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 2.2",
         "due_date": "2026-03-11T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du02_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 3.1",
         "due_date": "2026-03-18T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du03_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 3.2",
         "due_date": "2026-03-18T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du03_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 4.1",
         "due_date": "2026-03-25T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du04_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 4.2",
         "due_date": "2026-03-25T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du04_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 5.1",
         "due_date": "2026-04-01T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du05_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 5.2",
         "due_date": "2026-04-01T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du05_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 6.1",
         "due_date": "2026-04-08T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du06_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 6.2",
         "due_date": "2026-04-08T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du06_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 7.1",
         "due_date": "2026-04-15T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du07_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 7.2",
         "due_date": "2026-04-15T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du07_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 8.1",
         "due_date": "2026-04-22T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du08_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 8.2",
         "due_date": "2026-04-22T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du08_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 9.1",
         "due_date": "2026-04-29T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du09_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 9.2",
         "due_date": "2026-04-29T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du09_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 10.1",
         "due_date": "2026-05-06T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du10_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 10.2",
         "due_date": "2026-05-06T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du10_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 11.1",
         "due_date": "2026-05-13T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du11_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 11.2",
         "due_date": "2026-05-13T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du11_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 12.1",
         "due_date": "2026-05-20T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du12_1/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 2 Domácí úkol 12.2",
         "due_date": "2026-05-20T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/la2m/du12_2/",
-        "subject": "Lineární algebra 2"
+        "subject": "Lineární algebra 2",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Proseminář z teorie čísel První domácí úkol",
         "due_date": "2026-03-25T12:19:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/proseminar-z-tc/ukol-1/",
-        "subject": "Proseminář z teorie čísel"
+        "subject": "Proseminář z teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Proseminář z teorie čísel Druhý domácí úkol",
         "due_date": "2026-04-22T12:19:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/proseminar-z-tc/ukol-2/",
-        "subject": "Proseminář z teorie čísel"
+        "subject": "Proseminář z teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Proseminář z teorie čísel Třetí domácí úkol",
         "due_date": "2026-05-20T12:19:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/proseminar-z-tc/ukol-3/",
-        "subject": "Proseminář z teorie čísel"
+        "subject": "Proseminář z teorie čísel",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 1.1",
         "due_date": "2026-03-09T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU1-1/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 1.2",
         "due_date": "2026-03-09T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU1-2/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 1.3",
         "due_date": "2026-03-09T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU1-3/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 2.1",
         "due_date": "2026-03-30T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU2-1/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 2.2",
         "due_date": "2026-03-30T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU2-2/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 2.3",
         "due_date": "2026-03-30T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU2-3/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 3.1",
         "due_date": "2026-05-04T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU3-1/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 3.2",
         "due_date": "2026-05-04T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU3-2/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 3.3",
         "due_date": "2026-05-04T11:29:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU3-3/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 4.1",
         "due_date": "2026-05-25T11:30:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU4-1/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 4.2",
         "due_date": "2026-05-25T11:30:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU4-2/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Základy Kombinatoriky a Teorie Grafů 25/26 Domácí úkol 4.3",
         "due_date": "2026-05-25T11:30:00",
         "description": "https://owl.mff.cuni.cz/c/ls2526/ZKaTG2526/DU4-3/",
-        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26"
+        "subject": "Základy Kombinatoriky a Teorie Grafů 25/26",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 1.1",
         "due_date": "2025-10-15T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw1_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 1.2",
         "due_date": "2025-10-15T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw1_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 1.3",
         "due_date": "2025-10-15T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw1_3/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 2",
         "due_date": "2025-10-22T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 3.1",
         "due_date": "2025-10-29T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw3_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 3.2",
         "due_date": "2025-10-29T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw3_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 4.1",
         "due_date": "2025-11-05T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw4_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 4.2",
         "due_date": "2025-11-05T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw4_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 5.1",
         "due_date": "2025-11-19T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw5_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 5.2",
         "due_date": "2025-11-19T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw5_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 6.1",
         "due_date": "2025-11-26T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw6_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 6.2",
         "due_date": "2025-11-26T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw6_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 7.1",
         "due_date": "2025-12-03T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw7_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 7.2",
         "due_date": "2025-12-03T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw7_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 8.1",
         "due_date": "2025-12-10T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw8_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 8.2",
         "due_date": "2025-12-10T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw8_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 9",
         "due_date": "2025-12-21T00:00:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw_9/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 10.1",
         "due_date": "2026-01-07T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw10_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Domácí úkol 10.2",
         "due_date": "2026-01-07T12:15:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw10_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Bonusový domácí úkol 1",
         "due_date": "2026-02-14T12:00:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw_b_1/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Diskrétní matematika (Natália Bátorová) Bonusový domácí úkol 2",
         "due_date": "2026-02-14T12:00:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/25aNMIN105x08x03/hw_b_2/",
-        "subject": "Diskrétní matematika (Natália Bátorová)"
+        "subject": "Diskrétní matematika (Natália Bátorová)",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 1.1",
         "due_date": "2025-10-15T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du01_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 1.2",
         "due_date": "2025-10-15T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du01_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 2.1",
         "due_date": "2025-10-22T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du02_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 2.2",
         "due_date": "2025-10-22T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du02_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 3.1",
         "due_date": "2025-10-29T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du03_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 3.2",
         "due_date": "2025-10-29T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du03_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 4.1",
         "due_date": "2025-11-05T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du04_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 4.2",
         "due_date": "2025-11-05T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du04_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 5.1",
         "due_date": "2025-11-12T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du05_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 5.2",
         "due_date": "2025-11-12T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du05_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 6.1",
         "due_date": "2025-11-19T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du06_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 6.2",
         "due_date": "2025-11-19T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du06_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 7.1",
         "due_date": "2025-11-26T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du07_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 7.2",
         "due_date": "2025-11-26T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du07_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 8.1",
         "due_date": "2025-12-03T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du08_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 8.2",
         "due_date": "2025-12-03T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du08_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 9.1",
         "due_date": "2025-12-10T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du09_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 9.2",
         "due_date": "2025-12-10T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du09_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 10.1",
         "due_date": "2025-12-17T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du10_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 10.2",
         "due_date": "2025-12-17T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du10_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 11.1",
         "due_date": "2026-01-07T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du11_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 11.2",
         "due_date": "2026-01-07T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du11_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 12.1",
         "due_date": "2026-01-09T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du12_1/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Lineární algebra 1 Domácí úkol 12.2",
         "due_date": "2026-01-09T23:55:00",
         "description": "https://owl.mff.cuni.cz/c/zs2526/la1m/du12_2/",
-        "subject": "Lineární algebra 1"
+        "subject": "Lineární algebra 1",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 1.domácí série",
         "due_date": "2026-03-02",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/1-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/1-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 2.domácí série",
         "due_date": "2026-03-16",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/2-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/2-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 3.domácí série",
         "due_date": "2026-03-30",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/3-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/3-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 4.domácí série",
         "due_date": "2026-04-20",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/4-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/4-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 5.domácí série",
         "due_date": "2026-05-04",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/5-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/5-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     },
     {
         "title": "Řešitelský seminář 6.domácí série",
         "due_date": "2026-05-18",
-        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/index.htmlhttps://karlin.mff.cuni.cz/resitel/LS2526/6-domaci-serie.pdf",
-        "subject": "Řešitelský seminář"
+        "description": "https://karlin.mff.cuni.cz/resitel/LS2526/6-domaci-serie.pdf",
+        "subject": "Řešitelský seminář",
+        "est_hours": 2.0,
+        "actual_hours": null,
+        "completed": false
     }
 ]
