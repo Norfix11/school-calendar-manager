@@ -1,61 +1,33 @@
-# Demonstration datasets
+# Sprievodca demo súbormi
 
-Run `python main.py`, select a dataset, and click **Open dataset**, then **Build my plan**.
-Opening a demo sets the planning start to **24 September 2026** and the forecast end to
-**21 October 2026**. The filenames contain synthetic assignments, not real course data.
+## Čo jednotlivé ukážky demonštrujú
 
-| Dataset | Total tasks | Completed history | Unfinished | What to demonstrate |
-| --- | ---: | ---: | ---: | --- |
-| `demo_01_learning.json` | 47 | 42 | 5 | Learning different course durations, weekly recurrence, varying assignment counts |
-| `demo_02_deadline_crunch.json` | 53 | 40 | 13 | Crowded deadlines, early submission times, overload warnings and an overdue task |
-| `demo_03_mixed_patterns.json` | 41 | 33 | 8 | Weekly and biweekly courses, irregular milestones, known future deadlines and a break |
-| `demo_04_large_benchmark.json` | 396 | 324 | 72 | Eighteen weeks of history across six subjects, large grouped scheduling and prediction |
+| Názov v rozhraní | Súbor | Čo demonštruje |
+| --- | --- | --- |
+| Learning & weekly recurrence | `demo_01_learning.json` | Ako história skutočných časov upravuje pôvodné odhady podľa predmetu a ako aplikácia predpovedá týždenné zadania s rôznym počtom úloh. |
+| Deadline crunch | `demo_02_deadline_crunch.json` | Ako nahromadené deadliney a nastavená pohodlná náročnosť ovplyvňujú plán a riziko preťaženia. Demonštruje aj vynechanie plánovania úlohy po deadline a plánovanie úloh deň vopred pri skorom čase deadlinu. |
+| Mixed patterns & a holiday | `demo_03_mixed_patterns.json` | Ako aplikácia vyhodnocuje týždenné, dvojtýždenné a nepravidelné zadania a ako prestávky ovplyvňujú predikcie. |
+| Large benchmark · 396 tasks | `demo_04_large_benchmark.json` | Rýchlosť plánovania 72 nedokončených úloh pri histórii 324 dokončených úloh zo šiestich predmetov. Ukazuje využitie opakujúcich sa dĺžok pri zoskupovaní a predikciu zadaní pri veľkom množstve historických dát. |
 
-## Suggested walkthrough
+Pri pôvodných nastaveniach prvé tri ukážky vytvoria postupne **9, 12 a 4 predikcie**. Veľká ukážka vytvorí **6 predikcií**, každú s pravdepodobnosťou výskytu **95 %**. Ide o predikcie celých zadaní, ktoré môžu obsahovať viac úloh.
 
-1. Open **Learning & weekly recurrence**. The original estimates are two hours, but the
-   work plan learns from actual hours in the completed history. Inspect all three results tabs.
-2. Edit an unfinished task, mark it completed, and enter its actual total hours. Rebuild
-   the plan to see the remaining workload change. Use **Save a copy** to keep the edit.
-3. Open **Deadline crunch**. One task is already overdue; twelve can still be scheduled.
-   Compare daily overload risk with weekly risk. Set some weekday allowances to zero or
-   raise them to see how the recommended workdays change.
-4. Open **Mixed patterns & a holiday**. A break from **5 to 11 October** is prefilled.
-   Compare predictions with and without that break. The break changes recurrence forecasts,
-   not the amount of time available for studying.
-5. Open **Large benchmark**. There are 324 completed tasks and 72 unfinished tasks.
-   Three upcoming rounds per subject are already published. The fourth is deliberately
-   absent: the default forecast produces six predictions, each with a 95% occurrence
-   probability. All 72 unfinished tasks should appear in the plan.
+Veľká ukážka zámerne obsahuje veľa úloh s rovnakou očakávanou dĺžkou, aby ukázala rýchlosť vďaka zoskupovaniu. Pri predvolených pohodlných hodinách výrazne prevyšuje dostupnú rezervu, preto môže riziko vychádzať po zaokrúhlení 100 %. Na porovnanie skúste napríklad 7 hodín denne a potom ich postupne znižujte.
 
-The large benchmark deliberately has repeated two-hour expected durations, which lets
-the scheduler group tasks efficiently. It demonstrates that optimization; it is not a
-worst-case performance guarantee for many different durations and distant deadlines.
-The interface displays elapsed analysis time. Timings depend on the machine and settings.
+## Čo sa nastaví pri otvorení dema
 
-The first three demos produce 9, 12 and 4 predictions respectively with their default
-dates, allowances, and breaks. The second demo's overdue task is listed separately.
+- **Planning start:** 24.09.2026.
+- **Forecast through:** 21.10.2026.
+- **Assignment breaks:** pri *Mixed patterns & a holiday* sa vyplní `5.10.2026-11.10.2026`. Pri ostatných demách sa prestávky vymažú.
 
-## Working with your own data
+Pohodlné hodiny a hranica upozornenia sa pri otvorení dema nemenia. Ak ste ich už upravili, výsledky sa budú líšiť od uvedených počtov. Pôvodné pohodlné hodiny od pondelka do nedele sú **1, 3, 3, 2, 3, 1, 2** a hranica upozornenia je **50 %**.
 
-- JSON datasets remain ordinary event lists, compatible with `event_storage.py`.
-- Put a JSON file in `data`, reload the page, then select it. **Merge into current** uses
-  the existing subject/title matching and preserves stored feedback.
-- Edits stay in memory until **Save**. Demo files are protected by the interface: save
-  an edited copy under another name.
-- **Export calendar** downloads known deadlines as ICS. Predictions and work sessions
-  are not calendar events. You can include or exclude completed history.
-- On macOS, the same dialog also offers **Sync to Apple Calendar**. It requires confirmation
-  because it replaces all events in the existing **Homework Deadlines** calendar with the
-  selected tasks. It does not save JSON changes. Direct sync is unavailable on Windows;
-  ICS download still works. No automatic or periodic sync is enabled.
-- **Refresh sources** merges fetched tasks into the open workspace. Public course pages
-  need no login. Owl and ReCodEx retain the existing workflow: log in in the opened browser,
-  then press Enter in the terminal. Refresh does not automatically save changes.
-- `python main.py --cli` runs the original console workflow.
-- The local server stops with Ctrl+C in its terminal. Keep only one editing tab open;
-  tabs share the same workspace. Planning settings are per browser page and are not stored
-  in the event JSON.
+Pri otvorení bežného súboru zostanú aktuálne plánovacie dátumy aj prestávky zachované. Automatické nastavenia sa pre demo aplikujú iba cez **Open dataset**, nie cez **Merge into current**.
 
-Risk values are model estimates. The forecast window limits predicted assignments and
-weekly reporting, while the planner still considers all known unfinished deadlines.
+## Ukladanie upravených ukážok
+
+**Save / Save a copy** tu nedáva užívateľovi povolenie prepísať pôvodný súbor:
+
+- **Demo súbor:** rozhranie navrhne názov `my_deadlines.json`. Môžete zvoliť iný názov, čím sa zmeny uložia do bežného (už nie demo) súboru, ale uloženie pod pôvodným názvom niektorej zo štyroch ukážok je zablokované. Demo tak zostane nezmenené.
+- **Bežný súbor:** rozhranie navrhne aktuálny názov. Ak iba potvrdíte prepísanie, zmeny sa uložia do pôvodného súboru. Iný názov vytvorí kópiu alebo po potvrdení prepíše už existujúci súbor s týmto názvom.
+
+Formát uložených údajov je v oboch prípadoch rovnaký. Výpočet používa pre demo aj bežné údaje rovnaké algoritmy.

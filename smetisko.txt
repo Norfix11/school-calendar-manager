@@ -70,3 +70,7 @@ Komenty ma raz zabiju, preco som ich nepisal pocas programovania...
 
 Chat mi spravil user web interface co je nice uz je to aj pouzitelne. Prekopiroval som toto z Apple notes do txt sem,
 zostava mi este okomentovat risk analysis, co sa mi uz nechce a napisat dokumentaciu. Takze rano je hotovo.
+
+KOMENTYYYYYYY
+
+Komenty done uz len README dokoncit a sme hotovo.

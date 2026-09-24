@@ -175,7 +175,7 @@ class Application:
             result = self.state()
             if not merge and name in DEMOS:
                 result["demo_start"] = DEMO_START.isoformat()
-                result["demo_breaks"] = "2026-10-05,2026-10-11" if name == "demo_03_mixed_patterns.json" else ""
+                result["demo_breaks"] = "5.10.2026-11.10.2026" if name == "demo_03_mixed_patterns.json" else ""
             return result
 
     def update_task(self, payload: dict) -> dict:
@@ -231,10 +231,18 @@ class Application:
         breaks = []
         for line in payload.get("breaks", "").splitlines():
             if line.strip():
-                parts = [part.strip() for part in line.split(",")]
-                if len(parts) != 2:
-                    raise ValueError("Write each break as YYYY-MM-DD,YYYY-MM-DD.")
-                first, last = map(date.fromisoformat, parts)
+                try:
+                    # Existing API clients can still send the previous ISO format.
+                    if "," in line:
+                        first, last = map(date.fromisoformat, line.strip().split(","))
+                    else:
+                        parts = line.replace("–", "-").split("-")
+                        first, last = (
+                            datetime.strptime(part.strip().replace("/", "."), "%d.%m.%Y").date()
+                            for part in parts
+                        )
+                except ValueError as error:
+                    raise ValueError("Write each break as DD.MM.YYYY-DD.MM.YYYY, for example 5.10.2026-10.11.2026.") from error
                 if first > last:
                     raise ValueError("A break cannot end before it starts.")
                 breaks.append((first, last))
@@ -304,7 +312,7 @@ class Application:
                 job = {
                     "status": "error",
                     "kind": "sync",
-                    "error": f"Apple Calendar sync failed; the calendar may be partially updated. {type(error).__name__}: {error}",
+                    "error": f"Apple Calendar sync failed. The calendar may be partially updated. {type(error).__name__}: {error}",
                 }
             with self.lock:
                 self.job = job

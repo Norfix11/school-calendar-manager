@@ -9,6 +9,8 @@ from risk_analysis import analyze_events, last_workday
 
 
 def print_analysis(analysis: dict, hours_by_weekday: tuple, warning_probability: float):
+    """Prints all results in a readable format, as calculated by analysis dictionary"""
+
     print("\nRecommended work order (tasks on the same day have no strict order):")
 
     task_count = 0
@@ -63,6 +65,7 @@ def main():
     history_start = None
     breaks = []  # Pairs of start/end dates when assignments are not expected
     warning_probability = 0.5
+    sync_to_calendar = False
 
     if live_mode:
         live_events = []
@@ -96,7 +99,7 @@ def main():
             raise SystemExit("Offline data file not found: data/sample_deadlines.json.")
 
     
-    #build backup and preview .ics file
+    # Builds a backup and preview .ics file
     build_backup_ics(combined_events)
 
     analysis = analyze_events(combined_events, start_date, hours_by_weekday, forecast_end, 
@@ -114,7 +117,8 @@ def main():
 
     print_analysis(analysis, hours_by_weekday, warning_probability)
 
-    #sync_to_apple_calendar(combined_events)
+    if sync_to_calendar:
+        sync_to_apple_calendar(combined_events)
 
 
 

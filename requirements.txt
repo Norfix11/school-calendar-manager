@@ -1,0 +1,6 @@
+numpy
+scipy
+requests
+beautifulsoup4
+playwright
+icalendar
