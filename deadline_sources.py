@@ -90,25 +90,29 @@ def extract_deadlines_recodex(url: str) -> list:
                 subject = card_title.locator("a").first.text_content()
             
             # Deadline extraction from dropdown
-            card.locator('[data-icon="plus"]').first.click()
+            plus = card.locator('[data-icon="plus"]')
+            if plus.count() > 0:
+                plus.first.click()
+                
             rows = card.locator("tr")
-            page.wait_for_timeout(500)
             
             for j in range(rows.count()):
                 row = rows.nth(j)
                 table_data = row.locator("td")
                 
                 if table_data.count() >= 5:
-                    date_string = table_data.nth(4).text_content()
-                    date = datetime.strptime(date_string, "%m/%d/%Y %H:%M")
+                    date_string = (table_data.nth(4).text_content() or "").strip()
+                    
+                    try:
+                        date = datetime.strptime(date_string, "%m/%d/%Y %H:%M")
+                    except:
+                        continue
                     
                     event_title = table_data.nth(1)
                     title = event_title.text_content()
-                    event_reference = table_data.locator("a").first.get_attribute("href")[4:]
+                    event_reference = event_title.locator("a").first.get_attribute("href")[4:]
                     
                     event.append({"title": f"{subject} {title}", "due_date": date, "description": url + event_reference, "subject": subject})
-                
-            card.locator('[data-icon="minus"]').first.click()
     
     return event
     
@@ -162,3 +166,8 @@ def extract_deadlines_rr(html: str, url: str) -> list:
             event.append({"title": f"Řešitelský seminář {title}", "due_date": date, "description": reference, "subject": "Řešitelský seminář"})
     
     return event
+    
+
+
+if __name__ == "__main__":
+    print(extract_deadlines_recodex("https://recodex.mff.cuni.cz/app"))

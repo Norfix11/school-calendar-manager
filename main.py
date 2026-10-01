@@ -4,6 +4,7 @@ from deadline_sources import (get_html, extract_deadlines_nt, extract_deadlines_
                               extract_deadlines_rr, extract_deadlines_recodex)
 
 from calendar_export import build_backup_ics, sync_to_apple_calendar
+from config import HOURS_BY_SUBJECT, HOURS_BY_WEEKDAY
 from event_storage import save_events, load_events, merge_events
 from risk_analysis import analyze_events, last_workday
 
@@ -59,9 +60,9 @@ def main():
     live_mode = True
     start_date = date(2026, 3, 25)
     forecast_end = start_date + timedelta(days=50)
-    hours_by_weekday = (1, 3, 3, 2, 3, 1, 2)  # Monday through Sunday
+    hours_by_weekday = HOURS_BY_WEEKDAY
     default_est_hours = 2.0
-    hours_by_subject = {}
+    hours_by_subject = HOURS_BY_SUBJECT
     history_start = None
     breaks = []  # Pairs of start/end dates when assignments are not expected
     warning_probability = 0.5
@@ -78,11 +79,11 @@ def main():
         live_events += extract_deadlines_owl("https://owl.mff.cuni.cz")
         
         #resitelak
-        rr_page, url = get_html("https://karlin.mff.cuni.cz/resitel/LS2526/index.html")
+        rr_page, url = get_html("https://karlin.mff.cuni.cz/resitel/")
         live_events += extract_deadlines_rr(rr_page, url)
         
         #recodex
-        #live_events += extract_deadlines_recodex("https://recodex.mff.cuni.cz/app")
+        live_events += extract_deadlines_recodex("https://recodex.mff.cuni.cz/app")
 
         try:
             saved_events = load_events(default_est_hours, hours_by_subject)

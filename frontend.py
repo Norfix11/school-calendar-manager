@@ -16,6 +16,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from calendar_export import build_backup_ics, sync_to_apple_calendar
+from config import HOURS_BY_SUBJECT, HOURS_BY_WEEKDAY
 from event_storage import complete_event, load_events, merge_events, reopen_event, save_events
 from risk_analysis import analyze_events, last_workday
 
@@ -351,7 +352,7 @@ class Application:
                     else:
                         events.extend(extract_deadlines_recodex(url))
                 with self.lock:
-                    updated = merge_events(self.events, events)
+                    updated = merge_events(self.events, events, hours_by_subject=HOURS_BY_SUBJECT)
                     validate_events(updated)
                     self.events = updated
                     self.dirty = True
@@ -403,6 +404,7 @@ def make_handler(app: Application) -> type[BaseHTTPRequestHandler]:
                 self.send_json({"error": "Not found."}, 404)
                 return
             html = (ROOT / "frontend.html").read_text(encoding="utf-8")
+            html = html.replace("__HOURS_BY_WEEKDAY__", json.dumps(HOURS_BY_WEEKDAY))
             self.send_content(html.replace("__API_TOKEN__", app.token).encode(), "text/html; charset=utf-8")
 
         def do_POST(self) -> None:

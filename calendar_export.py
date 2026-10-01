@@ -132,4 +132,4 @@ def build_backup_ics(combined_events: list, output_file="homework_deadlines.ics"
     with open(output_file, "wb") as file:
         file.write(calendar.to_ical())
 
-    print(f"Created {output_file.rsplit('/', 1)[-1]}")
+    print(f"Saved data to {output_file.rsplit('/', 1)[-1]}")

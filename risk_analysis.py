@@ -853,8 +853,3 @@ def build_timeline(events: list, start_date: date, hours_by_weekday: tuple) -> d
         timeline[planning_date] = events_today
 
     return timeline
-
-
-
-if __name__ == "__main__":
-    pass

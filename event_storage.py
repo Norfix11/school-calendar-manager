@@ -35,7 +35,7 @@ def save_events(combined_events: list, output_file = "data/sample_deadlines.json
     with open(output_file, "w", encoding="utf-8") as file:
         json.dump(serialized_events, file, ensure_ascii = False, indent=4)
 
-    print(f"Created {output_file.rsplit('/', 1)[-1]}")
+    print(f"Saved data to {output_file.rsplit('/', 1)[-1]}")
 
 
 def load_events(default_est_hours = 2.0, hours_by_subject = None, input_file = "data/sample_deadlines.json"):
