@@ -862,5 +862,14 @@
         "est_hours": 2.0,
         "actual_hours": null,
         "completed": false
+    },
+    {
+        "title": "Řešitelský seminář 1.domácí série",
+        "due_date": "2026-10-15",
+        "description": "https://karlin.mff.cuni.cz/resitel/1-domaci-serie.pdf",
+        "subject": "Řešitelský seminář ZS 26/27",
+        "est_hours": 4.0,
+        "actual_hours": null,
+        "completed": false
     }
 ]

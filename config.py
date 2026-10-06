@@ -2,6 +2,7 @@
 # Subjects not listed use an estimate of 2.0 hours by default.
 HOURS_BY_SUBJECT = {
     "Řešitelský seminář": 4.0,
+    "Řešitelský seminář ZS 26/27": 4.0,
     "Lineární algebra 1": 1.5,
     "Lineární algebra 2": 1.5,
     "Teorie čísel": 3.0,
